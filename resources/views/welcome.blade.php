@@ -48,53 +48,53 @@
     </section>
 
     <!-- Section 2 -->
-    <section class="w-full py-72 bg-gray-100 text-center fade-up" id="our_value">
-        <h2 class="text-5xl font-bold mb-20">Mengapa Berinvestasi <br>di Villa The Mediteran?</h2>
-        <div class="mx-20 grid grid-cols-3 gap-4 px-20">
+    <section class="w-full py-20 bg-gray-100 text-center fade-up" id="our_value">
+        <h2 class="text-3xl md:text-5xl font-bold mb-10 md:mb-20">Mengapa Berinvestasi <br class="hidden md:block">di Villa The Mediteran?</h2>
+        <div class="mx-5 md:mx-20 grid grid-cols-1 md:grid-cols-3 gap-4 px-5 md:px-20">
             <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mb-4">
-                    <img src="img/cash.png" alt="Bisnis Villa Autopilot" class="h-10">
+                <div class="bg-gray-300 w-16 md:w-20 p-4 rounded mb-4">
+                    <img src="img/cash.png" alt="Bisnis Villa Autopilot" class="h-8 md:h-10">
                 </div>
                 <h3 class="font-bold">Bisnis Villa Autopilot</h3>
-                <p class="text-gray-700">Tinggal duduk manis dan dapatkan passive income hingga <span class="font-bold">360jt / thn</span></p>
+                <p class="text-gray-700 text-sm md:text-base">Tinggal duduk manis dan dapatkan passive income hingga <span class="font-bold">360jt / thn</span></p>
             </div>
             <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mb-4">
-                    <img src="img/dollar.png" alt="Investasi Menjanjikan" class="h-10 ">
+                <div class="bg-gray-300 w-16 md:w-20 p-4 rounded mb-4">
+                    <img src="img/dollar.png" alt="Investasi Menjanjikan" class="h-8 md:h-10">
                 </div>
                 <h3 class="font-bold">Investasi Menjanjikan</h3>
-                <p class="text-gray-700">Mulai dari <span class="font-bold">1 miliar</span>, Anda bisa mendapatkan unit villa yang terletak 0 km poros jalan raya.</p>
+                <p class="text-gray-700 text-sm md:text-base">Mulai dari <span class="font-bold">1 miliar</span>, Anda bisa mendapatkan unit villa yang terletak 0 km poros jalan raya.</p>
             </div>
             <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mb-4">
-                    <img src="img/handshake.png" alt="Akses Eksklusif Jaringan Pengusaha" class="h-10 ">
+                <div class="bg-gray-300 w-16 md:w-20 p-4 rounded mb-4">
+                    <img src="img/handshake.png" alt="Akses Eksklusif Jaringan Pengusaha" class="h-8 md:h-10">
                 </div>
                 <h3 class="font-bold">Akses Eksklusif Jaringan Pengusaha</h3>
-                <p class="text-gray-700">Bangun relasi dengan pemilik villa sukses di berbagai sektor.</p>
+                <p class="text-gray-700 text-sm md:text-base">Bangun relasi dengan pemilik villa sukses di berbagai sektor.</p>
             </div>
             <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mb-4">
-                    <img src="img/balance.png" alt="Legalitas Terjamin" class="h-10 ">
+                <div class="bg-gray-300 w-16 md:w-20 p-4 rounded mb-4">
+                    <img src="img/balance.png" alt="Legalitas Terjamin" class="h-8 md:h-10">
                 </div>
                 <h3 class="font-bold">Legalitas Terjamin</h3>
-                <p class="text-gray-700">Sertifikat Hak Milik (SHM) menjamin legalitas properti.</p>
+                <p class="text-gray-700 text-sm md:text-base">Sertifikat Hak Milik (SHM) menjamin legalitas properti.</p>
             </div>
             <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mb-4">
-                    <img src="img/home.png" alt="Hi-Tech" class="h-10 ">
+                <div class="bg-gray-300 w-16 md:w-20 p-4 rounded mb-4">
+                    <img src="img/home.png" alt="Hi-Tech" class="h-8 md:h-10">
                 </div>
                 <h3 class="font-bold">Hi-Tech</h3>
-                <p class="text-gray-700">Akses Mediteran Apps untuk memantau okupansi dan fitur smart home di villa Anda.</p>
+                <p class="text-gray-700 text-sm md:text-base">Akses Mediteran Apps untuk memantau okupansi dan fitur smart home di villa Anda.</p>
             </div>
             <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mb-4">
-                    <img src="img/thermostat.png" alt="Layanan Sewa Kelola" class="h-10 ">
+                <div class="bg-gray-300 w-16 md:w-20 p-4 rounded mb-4">
+                    <img src="img/thermostat.png" alt="Layanan Sewa Kelola" class="h-8 md:h-10">
                 </div>
                 <h3 class="font-bold">Layanan Sewa Kelola</h3>
-                <p class="text-gray-700">Pengelolaan sewa profesional, hasil investasi maksimal tanpa repot.</p>
+                <p class="text-gray-700 text-sm md:text-base">Pengelolaan sewa profesional, hasil investasi maksimal tanpa repot.</p>
             </div>
         </div>
-    </section>
+    </section>    
 
     <!-- Section 3 -->
     <section class="w-full py-24 bg-gray-100 text-center fade-up">
