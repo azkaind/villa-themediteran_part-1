@@ -177,60 +177,58 @@
     </section>
 
     <!-- Section 5 -->
-    <section class="w-full py-40 bg-gray-100 fade-up">
-        <div class="mb-10 flex justify-between mx-40">
-            <h2 class="text-4xl font-bold">Villa Sequoia - Tipe 134,<br>Hunian Mewah Bernuansa Tropis</h2>
-            <p class="text-justify text-gray-700 mt-4 w-1/2">Hadir dengan desain tropis modern, menciptakan keseimbangan sempurna antara kenyamanan, keindahan, dan kehangatan alami.</p>
+    <section class="w-full py-20 bg-gray-100 fade-up px-5 md:px-40" id="tipe">
+        <div class="mb-10 text-center md:text-left">
+            <h2 class="text-2xl md:text-4xl font-bold">Villa Sequoia - Tipe 134,<br>Hunian Mewah Bernuansa Tropis</h2>
+            <p class="text-gray-700 mt-4 md:w-2/3 mx-auto md:mx-0">Hadir dengan desain tropis modern, menciptakan keseimbangan sempurna antara kenyamanan, keindahan, dan kehangatan alami.</p>
         </div>
-        <div class="flex justify-center">
-            <div class="flex">
-                <img src="img/rumah 3.png" alt="Interior Villa" class="rounded-xl shadow-md">
-            </div>
-            <div class="flex flex-col">
-                <img src="img/rumah 4.png" alt="Eksterior Villa" class="rounded-xl shadow-md">
-                <div class="grid grid-cols-4 mt-4 gap-4 ml-4 border-4 border-black p-2 rounded-xl">
+        <div class="flex flex-col md:flex-row items-center md:items-start gap-6">
+            <img src="img/rumah 3.png" alt="Interior Villa" class="rounded-xl shadow-md w-full md:w-1/2">
+            <div class="flex flex-col w-full md:w-1/2">
+                <img src="img/rumah 4.png" alt="Eksterior Villa" class="rounded-xl shadow-md w-full">
+                <div class="grid grid-cols-2 md:grid-cols-4 mt-4 gap-4 border-2 border-black p-4 rounded-xl">
                     <div class="text-center flex items-center">
                         <img src="img/kasur.png" alt="">
-                        <span class="text-gray-700 ml-4">3 Kamar Tidur</span>
+                        <span class="text-gray-700 ml-2 text-sm md:text-base">3 Kamar Tidur</span>
                     </div>
                     <div class="text-center flex items-center">
                         <img src="img/kamar mandi.png" alt="">
-                        <span class="text-gray-700 ml-4">3 Kamar Mandi</span>
+                        <span class="text-gray-700 ml-2 text-sm md:text-base">3 Kamar Mandi</span>
                     </div>
                     <div class="text-center flex items-center">
                         <img src="img/sofa.png" alt="">
-                        <span class="text-gray-700 ml-4">Ruang Tamu</span>
+                        <span class="text-gray-700 ml-2 text-sm md:text-base">Ruang Tamu</span>
                     </div>
                     <div class="text-center flex items-center">
                         <img src="img/makan.png" alt="">
-                        <span class="text-gray-700 ml-4">Ruang Makan</span>
+                        <span class="text-gray-700 ml-2 text-sm md:text-base">Ruang Makan</span>
                     </div>
                     <div class="text-center flex items-center">
                         <img src="img/pool.png" alt="">
-                        <span class="text-gray-700 ml-4">Private Pool</span>
+                        <span class="text-gray-700 ml-2 text-sm md:text-base">Private Pool</span>
                     </div>
                     <div class="text-center flex items-center">
                         <img src="img/kanopi.png" alt="">
-                        <span class="text-gray-700 ml-4">Kanopi</span>
+                        <span class="text-gray-700 ml-2 text-sm md:text-base">Kanopi</span>
                     </div>
                     <div class="text-center flex items-center">
                         <img src="img/keluarga.png" alt="">
-                        <span class="text-gray-700 ml-4">Ruang Keluarga</span>
+                        <span class="text-gray-700 ml-2 text-sm md:text-base">Ruang Keluarga</span>
                     </div>
                     <div class="text-center flex items-center">
                         <img src="img/balkon.png" alt="">
-                        <span class="text-gray-700 ml-4">Balkon</span>
+                        <span class="text-gray-700 ml-2 text-sm md:text-base">Balkon</span>
                     </div>
                 </div>
-                <div class="text-center mt-8">
-                    <button class="bg-gray-800 text-white px-6 py-3 rounded-xl shadow-md hover:bg-gray-700">Denah</button>
+                <div class="text-center mt-6">
+                    <button class="bg-gray-800 text-white px-4 md:px-6 py-2 md:py-3 rounded-xl shadow-md hover:bg-gray-700">Denah</button>
                 </div>
             </div>
         </div>
-        <div class="text-center mt-10 px-80 font-semibold">
-            <p class="text-gray-700">"Sequoia - Tipe 134 menghadirkan hunian eksklusif dengan kemewahan dan kesejukan tropis. Dirancang untuk kenyamanan maksimal, hunian ini mengoptimalkan pencahayaan alami, material premium, serta ruang terbuka yang harmonis. Dilengkapi 3 kamar tidur luas, 3 kamar mandi modern, serta ruang tamu, keluarga, dan makan yang lapang. Dapur berkonsep terbuka menciptakan kesan luas dan fungsional. Private pool dan balkon  eksklusif, sementara kanopi estetis melindungi kendaraan."</p>
+        <div class="text-center mt-10 px-5 md:px-40 font-semibold">
+            <p class="text-gray-700 text-sm md:text-base">"Sequoia - Tipe 134 menghadirkan hunian eksklusif dengan kemewahan dan kesejukan tropis. Dirancang untuk kenyamanan maksimal, hunian ini mengoptimalkan pencahayaan alami, material premium, serta ruang terbuka yang harmonis. Dilengkapi 3 kamar tidur luas, 3 kamar mandi modern, serta ruang tamu, keluarga, dan makan yang lapang. Dapur berkonsep terbuka menciptakan kesan luas dan fungsional. Private pool dan balkon eksklusif, sementara kanopi estetis melindungi kendaraan."</p>
         </div>
-    </section>
+    </section>    
 
     <!-- Section 6 -->
     <section class="w-full py-40 bg-gray-100 fade-up" id="testimonials">
