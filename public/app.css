@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.font-montserrat {
+    font-family: "Montserrat", serif;
+}
+
+.font-josefin {
+    font-family: "Josefin Sans", serif;
+}
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(50px); /* Mulai 50px di bawah posisi akhir */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+  
+.fade-up.active {
+    opacity: 1;
+    transform: translateY(0); /* Posisi akhir */
+}
