@@ -99,7 +99,7 @@
     <!-- Section 3 -->
     <section class="w-full py-16 bg-gray-100 text-center fade-up">
         <h2 class="text-3xl md:text-4xl font-bold mb-10 md:mb-14">Lokasi Strategis</h2>
-        <div class="mx-5 md:mx-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 px-5 md:px-20">
+        <div class="mx-5 md:mx-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 px-5 md:px-20">
             <div class="bg-white p-6 rounded-xl shadow-md">
                 <img src="img/0km.png" alt="0 KM Jalan Poros Kota Batu" class="h-32 w-full object-cover rounded-md mb-4">
                 <h3 class="font-bold">0 KM Jalan Poros <br> Kota Batu</h3>
@@ -117,14 +117,14 @@
                 <h3 class="font-bold">10 Menit dari <br> Alun-Alun Batu</h3>
             </div>
         </div>
-        <div class="mt-10 mx-5 md:mx-40 bg-white p-6 md:p-12 rounded-xl shadow-md flex flex-col md:flex-row items-center">
-            <img src="img/villa.png" alt="Peluang Investasi" class="h-32 w-full md:w-1/3 object-cover rounded-md mb-4 md:mb-0">
+        <div class="mt-10 mx-5 md:mx-20 bg-white p-6 md:p-12 rounded-xl shadow-md flex flex-col md:flex-row items-center">
+            <img src="img/villa.png" alt="Peluang Investasi" class="h-40 w-full md:w-1/2 object-cover rounded-md mb-4 md:mb-0">
             <div class="md:ml-6 text-left">
                 <h3 class="font-bold text-lg md:text-xl">Tingginya Jumlah Wisatawan Jadi Peluang!</h3>
                 <p class="text-gray-700 mt-2 text-sm md:text-base">Dengan kunjungan lebih dari 10 juta wisatawan setiap tahun, Kota Batu menawarkan peluang investasi villa yang menjanjikan. Potensi tingkat okupansi yang tinggi didukung oleh daya tarik wisata populer seperti Jatim Park 3, BNS, dan Alun-Alun Batu, menjadikan Kota Batu sebagai destinasi investasi yang menguntungkan.</p>
             </div>
         </div>
-    </section>    
+    </section>        
 
     <!-- Section 4 -->
     <section class="w-full py-40 bg-gray-100 fade-up" id="tipe">
