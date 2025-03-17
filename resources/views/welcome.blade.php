@@ -231,59 +231,56 @@
     </section>    
 
     <!-- Section 6 -->
-    <section class="w-full py-40 bg-gray-100 fade-up" id="testimonials">
-        <div class="text-center mb-20">
-            <h2 class="text-4xl font-bold">Apa Kata Pelanggan Kami?</h2>
+    <section class="w-full py-20 bg-gray-100 fade-up" id="testimonials">
+        <div class="text-center mb-10 px-6">
+            <h2 class="text-3xl md:text-4xl font-bold">Apa Kata Pelanggan Kami?</h2>
         </div>
-        <div class="flex justify-center gap-8 px-20">
-            <div class="space-y-6 w-1/2">
-                <div class="p-4 border rounded-xl shadow-sm bg-white flex justify-center items-center border-black">
-                    <div class="mr-4">
-                        <img src="img/titiek.png" alt="">
-                    </div>
+        <div class="flex flex-col md:flex-row justify-center gap-8 px-6 md:px-20">
+            <div class="space-y-6 w-full md:w-1/2">
+                <div class="p-4 border rounded-xl shadow-sm bg-white flex items-center border-black">
+                    <img src="img/titiek.png" alt="" class="w-12 h-12 md:w-16 md:h-16 mr-4 rounded-full">
                     <div>
-                        <p class="mb-2">Saya sangat puas dengan pembelian villa di The Mediteran. Lokasinya strategis, elegan, dan fasilitasnya premium.</p>
+                        <p class="mb-2 text-sm md:text-base">Saya sangat puas dengan pembelian villa di The Mediteran. Lokasinya strategis, elegan, dan fasilitasnya premium.</p>
                         <span class="font-bold">Titiek Surhatanti</span><br>
-                        <span class="text-gray-500">Business Owner</span>
+                        <span class="text-gray-500 text-sm">Business Owner</span>
                     </div>
                 </div>
-                <div class="p-4 border rounded-xl shadow-sm bg-white flex justify-center items-center border-black">
-                    <div class="mr-4">
-                        <img src="img/alisson.png" alt="">
-                    </div>
+                <div class="p-4 border rounded-xl shadow-sm bg-white flex items-center border-black">
+                    <img src="img/alisson.png" alt="" class="w-12 h-12 md:w-16 md:h-16 mr-4 rounded-full">
                     <div>
-                        <p class="mb-2">Villa di The Mediteran sangat nyaman, mewah, dan investasi terbaik dengan pelayanan yang luar biasa.</p>
+                        <p class="mb-2 text-sm md:text-base">Villa di The Mediteran sangat nyaman, mewah, dan investasi terbaik dengan pelayanan yang luar biasa.</p>
                         <span class="font-bold">Alisson Becker</span><br>
-                        <span class="text-gray-500">Brazilian Goalkeeper</span>
+                        <span class="text-gray-500 text-sm">Brazilian Goalkeeper</span>
                     </div>
                 </div>
-                <div class="p-4 border rounded-xl shadow-sm bg-white flex justify-center items-center border-black">
-                    <div class="mr-4">
-                        <img src="img/ambatukam.png" alt="">
-                    </div>
+                <div class="p-4 border rounded-xl shadow-sm bg-white flex items-center border-black">
+                    <img src="img/ambatukam.png" alt="" class="w-12 h-12 md:w-16 md:h-16 mr-4 rounded-full">
                     <div>
-                        <p class="mb-2">Membeli villa di The Mediteran adalah keputusan terbaik lokasi strategis, desain elegan, pelayanan profesional.</p>
+                        <p class="mb-2 text-sm md:text-base">Membeli villa di The Mediteran adalah keputusan terbaik lokasi strategis, desain elegan, pelayanan profesional.</p>
                         <span class="font-bold">Ambatukam</span><br>
-                        <span class="text-gray-500">Agency Staff</span>
+                        <span class="text-gray-500 text-sm">Agency Staff</span>
                     </div>
                 </div>
-                <div class="p-4 border rounded-xl shadow-sm bg-white flex justify-center items-center border-black">
-                    <div class="mr-4">
-                        <img src="img/darwin.png" alt="">
-                    </div>
+                <div class="p-4 border rounded-xl shadow-sm bg-white flex items-center border-black">
+                    <img src="img/darwin.png" alt="" class="w-12 h-12 md:w-16 md:h-16 mr-4 rounded-full">
                     <div>
-                        <p class="mb-2">Hunian yang sempurna untuk investasi maupun tempat tinggal. Desainnya elegan, suasananya asri, dan fasilitasnya berkelas.</p>
+                        <p class="mb-2 text-sm md:text-base">Hunian yang sempurna untuk investasi maupun tempat tinggal. Desainnya elegan, suasananya asri.</p>
                         <span class="font-bold">Darwin Nunez</span><br>
-                        <span class="text-gray-500">Business Owner</span>
+                        <span class="text-gray-500 text-sm">Business Owner</span>
                     </div>
                 </div>
             </div>
-            <div class="w-1/2 flex flex-col justify-center items-center">
-                <iframe class="w-full h-96 rounded-xl shadow-md border-black border p-4" src="https://www.youtube.com/embed/8MxN9hTaF-Y?si=gtdJ9yJvbhie3daN" title="Testimoni Pelanggan" allowfullscreen></iframe>
-                <div class="text-center mt-4">
-                    <button class="border border-gray-700 text-gray-700 px-6 py-3 rounded-xl shadow-md hover:bg-gray-200 font-bold">Lihat Ulasan Langsung</button>
+            <div class="w-full md:w-1/2 flex flex-col justify-center items-center">
+                <div class="text-center mb-4">
+                    <button class="border border-gray-700 text-gray-700 px-6 py-3 rounded-xl shadow-md hover:bg-gray-200 font-bold w-full md:w-auto">
+                        Lihat Ulasan Langsung
+                    </button>
                 </div>
-            </div>
+                <iframe class="w-full h-56 md:h-96 rounded-xl shadow-md border-black border p-4"
+                    src="https://www.youtube.com/embed/8MxN9hTaF-Y?si=gtdJ9yJvbhie3daN"
+                    title="Testimoni Pelanggan" allowfullscreen>
+                </iframe>
+            </div>            
         </div>
     </section>
 
