@@ -127,54 +127,52 @@
     </section>        
 
     <!-- Section 4 -->
-    <section class="w-full py-40 bg-gray-100 fade-up" id="tipe">
-        <div class="mb-10 flex justify-between mx-40">
-            <h2 class="text-4xl font-bold">Villa Shaga - Tipe 772,<br>Modern dengan Sentuhan Tropis</h2>
-            <p class="text-justify text-gray-700 mt-4 w-1/2">Hunian modern bernuansa tropis yang menghadirkan kenyamanan, keindahan, dan keseimbangan untuk kehidupan berkualitas.</p>
+    <section class="w-full py-16 bg-gray-100 fade-up" id="tipe">
+        <div class="mb-10 mx-5 md:mx-40 text-center md:text-left">
+            <h2 class="text-3xl md:text-4xl font-bold">Villa Shaga - Tipe 772,<br>Modern dengan Sentuhan Tropis</h2>
+            <p class="text-gray-700 mt-4 md:w-1/2">Hunian modern bernuansa tropis yang menghadirkan kenyamanan, keindahan, dan keseimbangan untuk kehidupan berkualitas.</p>
         </div>
-        <div class="flex justify-center">
-            <div class="flex">
-                <img src="img/rumah 1.png" alt="Interior Villa" class="rounded-xl shadow-md">
-            </div>
-            <div class="flex flex-col">
-                <img src="img/rumah 2.png" alt="Eksterior Villa" class="rounded-xl shadow-md">
-                <div class="grid grid-cols-4 mt-4 gap-4 ml-4 border-4 border-black p-2 rounded-xl">
-                    <div class="text-center flex items-center">
-                        <img src="img/kasur.png" alt="">
-                        <span class="text-gray-700 ml-4">2 Kamar Tidur</span>
+        <div class="flex flex-col md:flex-row justify-center items-center md:items-start md:space-x-6 mx-5">
+            <img src="img/rumah 1.png" alt="Interior Villa" class="rounded-xl shadow-md w-full md:w-1/2 mb-4 md:mb-0">
+            <div class="flex flex-col w-full md:w-1/2">
+                <img src="img/rumah 2.png" alt="Eksterior Villa" class="rounded-xl shadow-md w-full">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4 border-2 border-black p-4 rounded-xl">
+                    <div class="flex items-center">
+                        <img src="img/kasur.png" alt="" class="h-6 w-6">
+                        <span class="text-gray-700 ml-2 text-sm">2 Kamar Tidur</span>
                     </div>
-                    <div class="text-center flex items-center">
-                        <img src="img/kamar mandi.png" alt="">
-                        <span class="text-gray-700 ml-4">2 Kamar Mandi</span>
+                    <div class="flex items-center">
+                        <img src="img/kamar mandi.png" alt="" class="h-6 w-6">
+                        <span class="text-gray-700 ml-2 text-sm">2 Kamar Mandi</span>
                     </div>
-                    <div class="text-center flex items-center">
-                        <img src="img/sofa.png" alt="">
-                        <span class="text-gray-700 ml-4">Ruang Tamu</span>
+                    <div class="flex items-center">
+                        <img src="img/sofa.png" alt="" class="h-6 w-6">
+                        <span class="text-gray-700 ml-2 text-sm">Ruang Tamu</span>
                     </div>
-                    <div class="text-center flex items-center">
-                        <img src="img/makan.png" alt="">
-                        <span class="text-gray-700 ml-4">Ruang Makan</span>
+                    <div class="flex items-center">
+                        <img src="img/makan.png" alt="" class="h-6 w-6">
+                        <span class="text-gray-700 ml-2 text-sm">Ruang Makan</span>
                     </div>
-                    <div class="text-center flex items-center">
-                        <img src="img/pool.png" alt="">
-                        <span class="text-gray-700 ml-4">Private Pool</span>
+                    <div class="flex items-center">
+                        <img src="img/pool.png" alt="" class="h-6 w-6">
+                        <span class="text-gray-700 ml-2 text-sm">Private Pool</span>
                     </div>
-                    <div class="text-center flex items-center">
-                        <img src="img/kanopi.png" alt="">
-                        <span class="text-gray-700 ml-4">Kanopi</span>
+                    <div class="flex items-center">
+                        <img src="img/kanopi.png" alt="" class="h-6 w-6">
+                        <span class="text-gray-700 ml-2 text-sm">Kanopi</span>
                     </div>
-                    <div class="text-center flex items-center">
-                        <img src="img/keluarga.png" alt="">
-                        <span class="text-gray-700 ml-4">Ruang Keluarga</span>
+                    <div class="flex items-center">
+                        <img src="img/keluarga.png" alt="" class="h-6 w-6">
+                        <span class="text-gray-700 ml-2 text-sm">Ruang Keluarga</span>
                     </div>
                 </div>
-                <div class="text-center mt-8">
+                <div class="text-center mt-6">
                     <button class="bg-gray-800 text-white px-6 py-3 rounded-xl shadow-md hover:bg-gray-700">Denah</button>
                 </div>
             </div>
         </div>
-        <div class="text-center mt-10 px-80 font-semibold">
-            <p class="text-gray-700">"Villa Shaga - Tipe 772 menghadirkan perpaduan sempurna antara desain modern dan sentuhan tropis yang hangat. Dengan 2 kamar tidur, ruang tamu luas, serta private pool, hunian ini dirancang untuk memberikan kenyamanan maksimal. Material berkualitas tinggi dan elemen alami seperti kayu dan batu ekspos menjadikan rumah ini tempat ideal untuk menikmati ketenangan dan kebersamaan."</p>
+        <div class="text-center mt-10 px-5 md:px-40 font-semibold">
+            <p class="text-gray-700 text-sm md:text-base">"Villa Shaga - Tipe 772 menghadirkan perpaduan sempurna antara desain modern dan sentuhan tropis yang hangat. Dengan 2 kamar tidur, ruang tamu luas, serta private pool, hunian ini dirancang untuk memberikan kenyamanan maksimal. Material berkualitas tinggi dan elemen alami seperti kayu dan batu ekspos menjadikan rumah ini tempat ideal untuk menikmati ketenangan dan kebersamaan."</p>
         </div>
     </section>
 
