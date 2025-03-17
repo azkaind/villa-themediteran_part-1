@@ -285,71 +285,71 @@
     </section>
 
     <!-- Section 7 -->
-    <section class="w-full py-40 bg-gray-100 fade-up" id="promo">
+    <section class="w-full py-20 bg-gray-100 fade-up" id="promo">
         <div class="text-center mb-10">
-            <h2 class="text-4xl font-bold">Promo Khusus Bulan Ini!</h2>
+            <h2 class="text-3xl md:text-4xl font-bold">Promo Khusus Bulan Ini!</h2>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 px-10 md:px-20">
-            <div class="flex items-center justify-center p-4 bg-white rounded-xl shadow-sm border">
-                <div class="bg-gray-300 w-20 p-4 rounded mr-4">
-                    <img src="img/receipt.png" alt="">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 px-4 md:px-20">
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border">
+                <div class="bg-gray-300 w-16 p-3 rounded mr-4 flex justify-center items-center">
+                    <img src="img/receipt.png" class="w-8" alt="">
                 </div>
                 <div>
-                    <h3 class="font-bold">Gratis Biaya Pajak dan Pembelian (BPHTB)</h3>
-                    <p class="text-gray-700">Dapatkan garansi kualitas bangunan selama satu tahun</p>
+                    <h3 class="font-bold text-lg">Gratis Biaya Pajak dan Pembelian (BPHTB)</h3>
+                    <p class="text-gray-700 text-sm">Dapatkan garansi kualitas bangunan selama satu tahun</p>
                 </div>
             </div>
-            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border justify-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mr-4">
-                    <img src="img/shield.png" alt="">
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border">
+                <div class="bg-gray-300 w-16 p-3 rounded mr-4 flex justify-center items-center">
+                    <img src="img/shield.png" class="w-8" alt="">
                 </div>
                 <div>
-                    <h3 class="font-bold">Gratis Interior & Furnitur Premium</h3>
-                    <p class="text-gray-700">Villa Anda siap huni atau disewakan dengan interior <br> dan furnitur premium</p>
+                    <h3 class="font-bold text-lg">Gratis Interior & Furnitur Premium</h3>
+                    <p class="text-gray-700 text-sm">Villa Anda siap huni atau disewakan dengan interior dan furnitur premium</p>
                 </div>
             </div>
-            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border justify-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mr-4">
-                    <img src="img/economic.png" alt="">
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border">
+                <div class="bg-gray-300 w-16 p-3 rounded mr-4 flex justify-center items-center">
+                    <img src="img/economic.png" class="w-8" alt="">
                 </div>
                 <div>
-                    <h3 class="font-bold">Garansi Bangunan Selama 1 Tahun</h3>
-                    <p class="text-gray-700">Dapatkan garansi kualitas bangunan selama satu tahun</p>
+                    <h3 class="font-bold text-lg">Garansi Bangunan Selama 1 Tahun</h3>
+                    <p class="text-gray-700 text-sm">Dapatkan garansi kualitas bangunan selama satu tahun</p>
                 </div>
             </div>
-            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border justify-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mr-4">
-                    <img src="img/furniture.png" alt="">
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border">
+                <div class="bg-gray-300 w-16 p-3 rounded mr-4 flex justify-center items-center">
+                    <img src="img/furniture.png" class="w-8" alt="">
                 </div>
                 <div>
-                    <h3 class="font-bold">Gratis Biaya KPR dan Notaris</h3>
-                    <p class="text-gray-700">Nikmati kemudahan investasi Villa dengan kepemilikan <br> tanpa biaya tambahan</p>
+                    <h3 class="font-bold text-lg">Gratis Biaya KPR dan Notaris</h3>
+                    <p class="text-gray-700 text-sm">Nikmati kemudahan investasi Villa dengan kepemilikan tanpa biaya tambahan</p>
                 </div>
             </div>
-            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border justify-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mr-4">
-                    <img src="img/contract.png" alt="">
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border">
+                <div class="bg-gray-300 w-16 p-3 rounded mr-4 flex justify-center items-center">
+                    <img src="img/contract.png" class="w-8" alt="">
                 </div>
                 <div>
-                    <h3 class="font-bold">Garansi Income Hingga 200 jt Selama 2 Tahun</h3>
-                    <p class="text-gray-700">Dapatkan garansi income hingga 200 jt per tahun selama <br> 2 tahun pertama</p>
+                    <h3 class="font-bold text-lg">Garansi Income Hingga 200 jt Selama 2 Tahun</h3>
+                    <p class="text-gray-700 text-sm">Dapatkan garansi income hingga 200 jt per tahun selama 2 tahun pertama</p>
                 </div>
             </div>
-            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border justify-center">
-                <div class="bg-gray-300 w-20 p-4 rounded mr-4">
-                    <img src="img/money.png" alt="">
+            <div class="flex items-center p-4 bg-white rounded-xl shadow-sm border">
+                <div class="bg-gray-300 w-16 p-3 rounded mr-4 flex justify-center items-center">
+                    <img src="img/money.png" class="w-8" alt="">
                 </div>
                 <div>
-                    <h3 class="font-bold">Gratis DP KPR 0%</h3>
-                    <p class="text-gray-700">Dapatkan gratis Biaya DP KPR selama masa promo</p>
+                    <h3 class="font-bold text-lg">Gratis DP KPR 0%</h3>
+                    <p class="text-gray-700 text-sm">Dapatkan gratis Biaya DP KPR selama masa promo</p>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <!-- Footer -->
-    <footer class="w-full py-8 bg-white border-t">
-        <nav class="flex justify-center space-x-6 mb-4">
+    <footer class="w-full py-8 bg-white border-t text-center">
+        <nav class="flex flex-wrap justify-center space-x-3 md:space-x-6 mb-4 text-sm md:text-base">
             <a href="#" class="text-gray-700 hover:text-black">Home</a>
             <a href="#our_value" class="hover:text-gray-900">Our Value</a>
             <a href="#tipe" class="hover:text-gray-900">Tipe</a>
@@ -357,24 +357,24 @@
             <a href="#promo" class="hover:text-gray-900">Promo</a>
         </nav>
         <div class="flex justify-center space-x-4 mb-4">
-            <a href="https://www.facebook.com/azkakasmito.putra" class="text-black text-2xl" target="_blank">
-                <img src="img/facebook.png" alt="Facebook Logo">
+            <a href="https://www.facebook.com/azkakasmito.putra" target="_blank">
+                <img src="img/facebook.png" class="w-6 md:w-8" alt="Facebook">
             </a>
-            <a href="https://www.instagram.com/azkaakhi" class="text-black text-2xl" target="_blank">
-                <img src="img/instagram.png" alt="Instagram Logo">
+            <a href="https://www.instagram.com/azkaakhi" target="_blank">
+                <img src="img/instagram.png" class="w-6 md:w-8" alt="Instagram">
             </a>
-            <a href="https://wa.me/+6289682912192" class="text-black text-2xl" target="_blank">
-                <img src="img/whatsapp (2).png" alt="Whatsapp Logo">
+            <a href="https://wa.me/+6289682912192" target="_blank">
+                <img src="img/whatsapp (2).png" class="w-6 md:w-8" alt="WhatsApp">
             </a>
-            <a href="https://www.tiktok.com/@kebunku77" class="text-black text-2xl" target="_blank">
-                <img src="img/tiktok.png" alt="Tiktok Logo">
+            <a href="https://www.tiktok.com/@kebunku77" target="_blank">
+                <img src="img/tiktok.png" class="w-6 md:w-8" alt="TikTok">
             </a>
-            <a href="mailto:abn9973@gmail.com" class="text-black text-2xl" target="_blank">
-                <img src="img/email.png" alt="Email ogo">
+            <a href="mailto:abn9973@gmail.com" target="_blank">
+                <img src="img/email.png" class="w-6 md:w-8" alt="Email">
             </a>
         </div>
-        <p class="text-center text-gray-500">2025 TheMediteran All rights reserved</p>
-    </footer>
+        <p class="text-gray-500 text-sm">2025 TheMediteran All rights reserved</p>
+    </footer>    
 
     <div class="fixed bottom-5 right-5">
         <a href="https://wa.me/+6289682912192" class="block w-20 h-20 bg-green-500 rounded-full flex items-center justify-center text-white text-xl shadow-lg">
