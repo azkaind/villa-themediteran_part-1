@@ -13,35 +13,82 @@
 </head>
 <body class="font-montserrat">
     <!-- Section 1 -->
+    <!-- Tambahkan Alpine.js di dalam <head> jika belum ada -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+
     <section class="relative w-full h-screen bg-gray-100">
-        <nav class="fixed z-20 top-0 left-0 w-full px-10 py-5 flex justify-between items-center bg-gray-200">
-            <div class="flex items-center space-x-2">
-                <a href="#">
-                    <img src="img/logo villa.png" alt="The Mediteran Logo" class="h-14">
-                </a>
-            </div>
-            <div class="space-x-6 text-gray-700 hidden md:flex">
+        <!-- Navbar -->
+        <nav class="fixed z-20 top-0 left-0 w-full px-6 py-4 flex justify-between items-center bg-gray-200">
+            <!-- Logo -->
+            <a href="#">
+                <img src="img/logo villa.png" alt="The Mediteran Logo" class="h-8 md:h-10">
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-6 text-gray-700">
                 <a href="#" class="hover:text-gray-900">Home</a>
                 <a href="#our_value" class="hover:text-gray-900">Our Value</a>
                 <a href="#tipe" class="hover:text-gray-900">Tipe</a>
                 <a href="#testimonials" class="hover:text-gray-900">Testimonials</a>
                 <a href="#promo" class="hover:text-gray-900">Promo</a>
             </div>
-            <a href="https://wa.me/+6289682912192">
+
+            <!-- Tombol Kontak (Desktop) -->
+            <a href="https://wa.me/+6289682912192" class="hidden md:block">
                 <button class="font-bold bg-gray-300 text-black px-4 py-2 rounded-xl shadow-md hover:bg-gray-400">
                     Kontak Kami
                 </button>
             </a>
+
+            <!-- Hamburger Menu (Mobile) -->
+            <div class="md:hidden" x-data="{ open: false }">
+                <button @click="open = !open" class="p-2 border border-gray-400 rounded-lg">
+                    <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+
+                <!-- Mobile Menu -->
+                <div x-show="open" x-transition 
+                    class="absolute top-16 left-0 w-full bg-white shadow-md flex flex-col items-start p-6 space-y-4 z-30">
+                    <a href="#" class="text-lg text-gray-700 hover:text-gray-900">Home</a>
+                    <a href="#our_value" class="text-lg text-gray-700 hover:text-gray-900">Our Value</a>
+                    <a href="#tipe" class="text-lg text-gray-700 hover:text-gray-900">Tipe</a>
+                    <a href="#testimonials" class="text-lg text-gray-700 hover:text-gray-900">Testimonials</a>
+                    <a href="#promo" class="text-lg text-gray-700 hover:text-gray-900">Promo</a>
+                    <a href="https://wa.me/+6289682912192" class="w-full">
+                        <button class="w-full font-bold bg-gray-300 text-black px-4 py-2 rounded-xl shadow-md hover:bg-gray-400">
+                            Kontak Kami
+                        </button>
+                    </a>
+                </div>
+            </div>
         </nav>
 
-        <div class="flex items-center h-full font-josefin fade-up">
-            <img src="img/vladimir-malyavko-vdQGc0lSd1c-unsplash 1.png" alt="Gedung" class="absolute h-full w-full object-cover">
-            <div class="w-1/2 pl-24" style="z-index: 2">
-                <h1 class="text-5xl font-semibold mb-6">Dapatkan Passive Income <span class="text-black font-bold"><br>360 jt/th</span> dari Bisnis Villa!</h1>
-                <p class="text-xl text-gray-700 mb-6">Miliki bisnis villa auto-pilot dengan pengelolaan setara hotel bintang lima <br>dan jadilah The Next Juragan Villa dengan potensi passive income hingga <br>360 juta/tahun.</p>
-                <button class="flex items-center bg-gray-200 text-black px-6 py-3 rounded-xl shadow-md hover:bg-gray-300 font-semibold h-16">
+        <!-- Hero Section -->
+        <div class="relative flex flex-col md:flex-row items-center h-full px-6 md:px-24 font-josefin">
+            <!-- Background Image -->
+            <img src="img/vladimir-malyavko-vdQGc0lSd1c-unsplash 1.png" 
+                alt="Gedung" 
+                class="absolute h-full w-full object-cover top-0 left-0 opacity-40">
+
+            <!-- Konten -->
+            <div class="relative z-10 text-center md:text-left md:w-1/2 mt-20 md:mt-0">
+                <h1 class="text-4xl md:text-5xl font-semibold leading-tight text-black">
+                    Dapatkan Passive Income 
+                    <span class="text-black font-bold block md:inline">360 jt/th</span>
+                    dari Bisnis Villa!
+                </h1>
+                <p class="text-lg md:text-xl text-gray-700 mt-4">
+                    Miliki bisnis villa auto-pilot dengan pengelolaan setara hotel bintang lima 
+                    dan jadilah The Next Juragan Villa dengan potensi passive income hingga 
+                    360 juta/tahun.
+                </p>
+                <button class="mt-6 md:mt-8 flex items-center justify-center bg-gray-200 text-black px-6 py-3 rounded-xl shadow-md hover:bg-gray-300 font-semibold w-full md:w-auto">
                     Pelajari Sekarang
-                    <img src="img/arrow-right.png" alt="">
+                    <img src="img/arrow-right.png" alt="" class="ml-2 w-6">
                 </button>
             </div>
         </div>
